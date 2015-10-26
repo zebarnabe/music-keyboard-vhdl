@@ -29,10 +29,10 @@ F3  - output 1
 F3# - output 2
 G3  - output 3
 G3# - output 4
-C4  - output 5
-C4# - output 6
-D4  - output 7
-D4# - output 8
+A4  - output 5
+A4# - output 6
+B4  - output 7
+C4  - output 8
 
 I think you can figure the rest out by now. ;)
 
