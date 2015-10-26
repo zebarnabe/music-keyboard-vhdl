@@ -1,0 +1,39 @@
+Physical wiring for Casio SA-10
+
+There is a single ribbon cable connecting the keyboard to the control board inside the SA-10
+
+Keys are mapped in 4 blocks of 8, for a total of 32 keys, please note that black keys and white keys are treated the same.
+
+The ribbon cable has 3 red insulated wires, the one that runs on the side of the ribbon cable is numbered as being output 1 and it is the left most key for the user of the keyboard in the 8 key blocks.
+
+Mapping the keyboard band accordingly:
+
+red   - output 1 
+white - output 2
+white - output 3
+white - output 4
+red   - output 5
+white - input 1
+white - input 2
+white - input 3
+white - input 4
+red   - output 8
+white - output 6
+white - output 7
+
+From left to right, to read the first 8 keys one drives the input 1 to high and the rest to zero. The outputs will be high if the key is pressed, low otherwise.
+
+Considering the original audio created by the SA-10, the first white key is F3, so, when the input 1 is high the outputs will map the keys:
+
+F3  - output 1
+F3# - output 2
+G3  - output 3
+G3# - output 4
+C4  - output 5
+C4# - output 6
+D4  - output 7
+D4# - output 8
+
+I think you can figure the rest out by now. ;)
+
+
